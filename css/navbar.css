@@ -1,0 +1,105 @@
+
+.navbar {
+  margin-top: 0 auto;
+  position: fixed;
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 34px;
+  background-color: #92cf86;
+}
+
+header .navbar ul li ul {
+  position: absolute;
+  width: 180px;
+  display: none;
+  border-radius: 0 0 20px 20px;
+  background-color: #92cf86;
+}
+
+header .navbar ul li ul li {
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+}
+
+header .navbar ul li:hover > ul {
+  display: list-item;
+  list-style-type: none;
+}
+
+.navmenu {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-link {
+  transition: 0.5s ease;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+.hamburguer {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 28px;
+  height: 3px;
+  border-radius: 2px;
+  margin: 5px auto;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 1280px) {
+  .hamburguer {
+    display: block;
+  }
+  .hamburguer.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburguer.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburguer.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .navmenu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    color: grey;
+    border-radius: 0 0 20px 20px;
+    background-color: #92cf86;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    transition: 0.3s;
+  }
+  header .navbar ul li ul {
+    position: absolute;
+    width: 180px;
+    display: none;
+    border-radius: 0 0 20px 20px;
+    background-color: #92cf86;
+  }
+  .nav-item {
+    margin: 16px 0;
+  }
+  .navmenu.active {
+    left: 0;
+  }
+  .center {
+    top: 70%;
+  }
+}
