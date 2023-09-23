@@ -94,6 +94,14 @@ h2 span {
   font-style: bold;
 }
 
+.main-text h1 span {
+  color: #92cf86;
+  font-style: bold;
+}
+
+.main-text p {
+  margin-left: 2%;
+}
 .main-text h2 {
   line-height: 25px;
   padding-top: 10px;
@@ -136,8 +144,8 @@ h2 span {
 
 footer {
   background-color: #92cf86;
-	color: #fff;
-	padding: 30px;
-	text-align: center;
-	margin-top: 50px;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  margin-top: 50px;
 }
