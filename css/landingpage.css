@@ -62,13 +62,13 @@ li {
     background-image: url(/image/ambiente1.jpg);
   }
   25% {
-    background-image: url(/image/paisagem.jpg);
+    background-image: url(/image/ambiente1.jpg);
   }
   50% {
     background-image: url(/image/paisagem.jpg);
   }
   75% {
-    background-image: url(/image/ambiente1.jpg);
+    background-image: url(/image/paisagem.jpg);
   }
 }
 
@@ -98,14 +98,13 @@ header a {
   text-align: center;
 }
 
-.img-index img{
+.img-index img {
   border-radius: 50%;
   height: 250px;
   width: 250px;
   margin-top: 350px;
   margin-left: 1200px;
 }
-
 
 .link-index:hover {
   color: grey;
