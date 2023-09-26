@@ -251,7 +251,7 @@ header .navbar ul li:hover > ul {
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 23px;
     color: white;
     margin-top: 20px;
   }
@@ -262,5 +262,15 @@ header .navbar ul li:hover > ul {
     font-weight: bold;
     font-size: large;
     text-align: center;
+  }
+  .link-index {
+    line-height: 120px;
+    font-size: 18px;
+    font-style: bold;
+    color: white;
+    background-color: #92cf86;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px;
   }
 }
