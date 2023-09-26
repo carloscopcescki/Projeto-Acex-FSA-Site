@@ -60,11 +60,11 @@ li {
 @keyframes animate {
   0% {
     background-image: url(/image/ambiente1.jpg);
-    opacity: 1;
+    opacity: 100%;
   }
   100% {
     background-image: url(/image/paisagem.jpg);
-    opacity: 1;
+    opacity: 100%;
   }
 }
 
