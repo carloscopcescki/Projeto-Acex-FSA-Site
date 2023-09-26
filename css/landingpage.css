@@ -52,23 +52,16 @@ li {
   height: 100%;
   max-height: 100%;
   background-size: cover;
+  background-position: center;
   z-index: -1;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
+  animation: animate 20s infinite alternate;
 }
 
 @keyframes animate {
-  0%,
+  0% {
+    background-image: url(/image/ambiente1.jpg);
+  }
   100% {
-    background-image: url(/image/ambiente1.jpg);
-  }
-  25% {
-    background-image: url(/image/ambiente1.jpg);
-  }
-  50% {
-    background-image: url(/image/paisagem.jpg);
-  }
-  75% {
     background-image: url(/image/paisagem.jpg);
   }
 }
