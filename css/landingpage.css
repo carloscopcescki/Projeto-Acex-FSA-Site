@@ -35,28 +35,7 @@ li {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(/image/ambiente1.jpg);
-  transition: 15s;
-
-  animation-name: animate;
-  animation-direction: alternate-reverse;
-  animation-duration: 30s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-  animation-timing-function: ease-in-out;
   z-index: -1;
-}
-
-@keyframes animate {
-  0% {
-    background-image: url(/image/paisagem.jpg);
-  }
-  50% {
-    background-image: url(/image/ambiente1.jpg);
-  }
-  100% {
-    background-image: url(/image/paisagem.jpg);
-  }
 }
 
 aside {
