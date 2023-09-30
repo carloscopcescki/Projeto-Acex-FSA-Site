@@ -34,7 +34,7 @@ li {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(/image/ambiente1.jpg);
+  background-image: url(/image/florestanoite.jpg);
   z-index: -1;
 }
 
@@ -82,8 +82,10 @@ header a {
   color: white;
   background-color: #92cf86;
   padding: 14px;
+  max-width: 850px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 30px;
+  font-weight: bold;
 }
 
 .logo {
