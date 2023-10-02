@@ -14,6 +14,7 @@ main {
   padding: 0 2%;
   max-width: 1280px;
   margin: 0 auto;
+  justify-content: center;
 }
 
 li {
@@ -25,23 +26,29 @@ li {
 }
 
 .container {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  max-height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(/image/florestanoite.jpg);
+  justify-content: center;
   z-index: -1;
 }
 
+.my-video {
+  position: fixed;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(75%);
+}
+
 aside {
-  margin-top: 300px;
+  margin-top: 320px;
   max-width: 850px;
-  text-align: left;
+  text-align: center;
 }
 
 h1 {
@@ -64,14 +71,6 @@ header a {
   text-align: center;
 }
 
-.img-index img {
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  margin-top: 350px;
-  margin-left: 1280px;
-}
-
 .link-index:hover {
   color: grey;
   transition: 0.7s;
@@ -92,16 +91,13 @@ header a {
   width: 50%;
 }
 
-@media (max-width: 905px) {
+@media (max-width: 1000px) {
   aside {
-    margin-top: 200px;
+    margin-top: 320px;
   }
 }
 
 @media (max-width: 600px) {
-  .img-index {
-    display: none;
-  }
   .container {
     text-align: center;
   }
@@ -110,13 +106,13 @@ header a {
     overflow-x: hidden;
   }
   h1 {
-    font-size: 35px;
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
   }
 
   h2 {
-    font-size: 23px;
+    font-size: 28px;
     color: white;
     margin-top: 20px;
   }
@@ -130,12 +126,12 @@ header a {
   }
   .link-index {
     line-height: 120px;
-    font-size: 18px;
+    font-size: 25px;
     font-style: bold;
     color: white;
     background-color: #92cf86;
     padding: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial;
     border-radius: 30px;
   }
 }
