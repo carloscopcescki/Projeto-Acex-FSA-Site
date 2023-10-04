@@ -127,4 +127,7 @@ header a {
     font-family: Arial;
     border-radius: 30px;
   }
+  aside {
+    margin-top: 100px;
+  }
 }
