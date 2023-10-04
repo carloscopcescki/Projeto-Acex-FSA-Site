@@ -139,3 +139,23 @@ footer {
   text-align: center;
   margin-top: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    text-align: center;
+  }
+  .site-heading {
+    height: 200px;
+  }
+  #container-a img {
+    width: 500px;
+    height: 150px;
+  }
+  #container-b img {
+    width: 350px;
+    height: 150px;
+  }
+  .masthead h1 {
+    font-size: 55px;
+  }
+}
