@@ -90,9 +90,8 @@ header .navbar ul li:hover > ul {
   }
   header .navbar ul li ul {
     position: absolute;
-    width: 250px;
+    width: 200px;
     display: none;
-    border-radius: 0 0 20px 20px;
     background-color: #92cf86;
   }
   .nav-item {
