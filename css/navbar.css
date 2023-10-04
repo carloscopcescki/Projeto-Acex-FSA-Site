@@ -7,22 +7,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 34px;
+  padding: 0 10px;
   background-color: #92cf86;
 }
 
 header .navbar ul li ul {
   position: absolute;
-  width: 250px;
+  width: 180px;
   display: none;
-  border-radius: 0 0 20px 20px;
   background-color: #92cf86;
 }
 
 header .navbar ul li ul li {
   width: 100%;
-  line-height: 50px;
-  text-align: center;
+  line-height: 40px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 header .navbar ul li:hover > ul {

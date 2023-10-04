@@ -91,13 +91,7 @@ header a {
   width: 50%;
 }
 
-@media (max-width: 1000px) {
-  aside {
-    margin-top: 320px;
-  }
-}
-
-@media (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .container {
     text-align: center;
   }
