@@ -156,6 +156,7 @@ footer {
     height: 150px;
   }
   .masthead h1 {
+    padding-top: 30px;
     font-size: 55px;
   }
 }
