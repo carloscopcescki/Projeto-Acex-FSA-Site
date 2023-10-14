@@ -9,6 +9,7 @@
   justify-content: space-between;
   padding: 0 10px;
   background-color: #92cf86;
+  padding-right: 30px;
 }
 
 header .navbar ul li ul {
