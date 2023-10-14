@@ -15,7 +15,7 @@
 
 html,
 body {
-  background: #f7f4f4;
+  background: #fafafa;
   height: 100%;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .masthead {
-  color: #f0ffff;
+  color: white;
   text-align: center;
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -50,7 +50,7 @@ li {
 }
 
 a {
-  color: white;
+  color: #fafafa;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -80,9 +80,9 @@ main {
 }
 
 .main-text hr {
-  height: 1px;
+  height: 2px;
   border: 0px;
-  background-color: grey;
+  background-color: #92cf86;
   text-align: center;
 }
 
@@ -109,6 +109,12 @@ main {
 .img-container p {
   line-height: 20px;
   margin-right: 0;
+}
+
+.main-text-about {
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
 }
 
 #container-a img {
@@ -165,6 +171,52 @@ main {
   font-style: italic;
   color: #121213;
   text-align: center;
+}
+
+.content-box h2 {
+  color: #4b9b63;
+  font-style: bold;
+  font-size: 20px;
+}
+
+.content-box span {
+  font-size: 28px;
+  background-color: #ebd2a999;
+  border-radius: 5%;
+  padding: 5px;
+  border-radius: 8px 8px;
+  margin-right: 10px;
+}
+
+.content-box {
+  display: inline-block;
+  width: 10%;
+  min-width: 25vw;
+  min-height: 10vw;
+  background-color: #f1e8da99;
+  border-radius: 25px 25px;
+  padding: 15px;
+  margin-right: 20px;
+}
+
+#first-content-box {
+  margin-left: 2%;
+}
+
+.content-box p {
+  padding-top: 10px;
+}
+
+.img-content-box img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.img-content-box {
+  text-align: center;
+  padding-top: 15px;
 }
 
 footer {

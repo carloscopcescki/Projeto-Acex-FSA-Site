@@ -53,7 +53,7 @@ aside {
 
 h1 {
   font-size: 55px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
   font-style: bold;
 }
 
@@ -82,7 +82,7 @@ header a {
   background-color: #92cf86;
   padding: 14px;
   max-width: 850px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: apercu-pro, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
   border-radius: 30px;
   font-weight: bold;
 }

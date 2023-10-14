@@ -31,6 +31,14 @@ header .navbar ul li:hover > ul {
   list-style-type: none;
 }
 
+header .navbar ul li ul li ul {
+  width: 100%;
+  line-height: 40px;
+  text-align: left;
+  margin-left: 160px;
+  margin-top: 0px;
+}
+
 .navmenu {
   display: flex;
   align-items: center;
