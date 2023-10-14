@@ -43,7 +43,7 @@ header .navbar ul li ul li ul {
 .navmenu {
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 50px;
 }
 
 .nav-link {
@@ -71,6 +71,33 @@ header .navbar ul li ul li ul {
   transition: all 0.3s ease-in-out;
 }
 
+.nav-item-drop:hover .drop-down {
+  display: block;
+}
+
+.nav-item-drop a {
+  display: flex;
+}
+
+.dropdown-icon {
+  font-size: 20px;
+  position: relative;
+  left: 5px;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out all;
+}
+
+.nav-item-drop:hover .dropdown-icon {
+  transform: rotate(180deg);
+}
+
+.drop-down {
+  position: relative;
+  padding: 0.5rem 0;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
 @media (max-width: 1280px) {
   .hamburguer {
     display: block;
@@ -86,30 +113,29 @@ header .navbar ul li ul li ul {
   }
   .navmenu {
     position: fixed;
-    left: -100%;
-    top: 70px;
-    gap: 0;
+    left: 100%;
+    top: 100px;
     color: grey;
     border-radius: 0 0 20px 20px;
     background-color: #92cf86;
-    text-align: center;
     flex-direction: column;
     width: 100%;
     transition: 0.3s;
   }
-  header .navbar ul li ul {
+
+  .drop-down{
     position: absolute;
     width: 200px;
     display: none;
     background-color: #92cf86;
   }
-  .nav-item {
-    margin: 16px 0;
+  #nav-item-last {
+    padding-bottom: 30px;
   }
   .navmenu.active {
     left: 0;
   }
   .center {
-    top: 70%;
+    top: 0%;
   }
 }
