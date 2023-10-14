@@ -113,7 +113,10 @@ header .navbar ul li ul li ul {
   }
   .navmenu {
     position: fixed;
-    left: 100%;
+    display: flex;
+    justify-content: center;
+    left: -100%;
+    right: 0;
     top: 100px;
     color: grey;
     border-radius: 0 0 20px 20px;
@@ -121,14 +124,22 @@ header .navbar ul li ul li ul {
     flex-direction: column;
     width: 100%;
     transition: 0.3s;
+    align-items: flex-start;
+    padding-left: 40px;
+  }
+  .nav-item {
+    right: 0;
+    left: auto;
   }
 
-  .drop-down{
-    position: absolute;
+  .drop-down {
+    position: fixed;
     width: 200px;
     display: none;
+    align-items: flex-end;
     background-color: #92cf86;
   }
+
   #nav-item-last {
     padding-bottom: 30px;
   }
