@@ -72,6 +72,11 @@ main {
   font-style: bold;
 }
 
+.main-text h2 {
+  color: #92cf86;
+  font-style: bold;
+}
+
 .main-text p {
   margin-left: 2%;
   margin-right: 10%;
@@ -90,12 +95,6 @@ main {
   list-style: square;
   padding-top: 15px;
   color: #92cf86;
-}
-
-.main-text li span {
-  color: black;
-  list-style: square;
-  padding-top: 15px;
 }
 
 .img-container {
@@ -177,6 +176,10 @@ main {
   color: #4b9b63;
   font-style: bold;
   font-size: 20px;
+}
+
+.content-box .content-box-item span {
+  color: #4b9b63;
 }
 
 .content-box span {
