@@ -194,6 +194,7 @@ main {
   min-width: 25vw;
   min-height: 10vw;
   background-color: #f1e8da99;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px 25px;
   padding: 15px;
   margin-right: 20px;
