@@ -191,6 +191,10 @@ main {
   margin-right: 20px;
 }
 
+.text-difusa h1 {
+  margin-top: 30px;
+}
+
 .content-box {
   display: inline-block;
   width: 10%;
@@ -247,7 +251,10 @@ footer {
     justify-content: center;
     align-items: center;
   }
-
+  .img-participantes img {
+    width: 100px;
+    height: 100px;
+  }
   #foto-participantes-2 {
     display: grid;
     justify-content: center;
@@ -275,5 +282,21 @@ footer {
   }
   .img-container {
     margin-left: 30px;
+  }
+  .content-box {
+    display: grid;
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  #first-content-box {
+    margin-left: 0;
+  }
+  .img-content-box img {
+    width: 130px;
+    height: 130px;
+  }
+  .content-box h2 {
+    line-height: 30px;
+    font-size: 20px;
   }
 }

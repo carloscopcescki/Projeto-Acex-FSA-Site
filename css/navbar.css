@@ -126,6 +126,7 @@ header .navbar ul li ul li ul {
     transition: 0.3s;
     align-items: flex-start;
     padding-left: 40px;
+    gap: 20px;
   }
   .nav-item {
     right: 0;
