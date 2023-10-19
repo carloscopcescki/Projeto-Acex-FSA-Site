@@ -285,7 +285,7 @@ footer {
   }
   .content-box {
     display: grid;
-    width: 250px;
+    width: 300px;
     margin-bottom: 20px;
   }
   #first-content-box {
