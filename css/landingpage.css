@@ -55,7 +55,7 @@ aside {
 
 h1 {
   font-size: 55px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: bold;
 }
 
@@ -103,7 +103,7 @@ header a {
   }
   h1 {
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: bold;
     line-height: 40px;
   }
