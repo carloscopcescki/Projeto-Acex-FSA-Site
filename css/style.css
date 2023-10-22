@@ -178,6 +178,11 @@ main {
   font-size: 20px;
 }
 
+.ods15-subtitle {
+  color: #4b9b63;
+  font-style: bold;
+}
+
 .content-box .content-box-item span {
   color: #4b9b63;
 }
