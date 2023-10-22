@@ -329,6 +329,31 @@ footer {
   color: #0085a1;
 }
 
+@media screen and (max-width: 1540px) {
+  .img-container {
+    margin-left: 30px;
+  }
+  .content-box {
+    display: grid;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  #first-content-box {
+    margin-left: 0;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .img-content-box img {
+    width: 130px;
+    height: 130px;
+  }
+  .content-box h2 {
+    line-height: 30px;
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container {
     text-align: center;
@@ -380,10 +405,13 @@ footer {
   .content-box {
     display: grid;
     width: 300px;
+    margin: 0 auto;
     margin-bottom: 20px;
   }
   #first-content-box {
-    margin-left: 0;
+    margin-top: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
   .img-content-box img {
     width: 130px;
