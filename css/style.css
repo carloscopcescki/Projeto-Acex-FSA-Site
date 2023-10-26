@@ -196,6 +196,12 @@ main {
   margin-right: 20px;
 }
 
+.gestao-empresarial {
+  color: #92cf86;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .text-difusa h1 {
   margin-top: 30px;
 }

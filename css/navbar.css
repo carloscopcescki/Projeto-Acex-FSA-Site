@@ -43,13 +43,13 @@ header .navbar ul li ul li ul {
 .navmenu {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
 }
 
 .nav-link {
   transition: 0.5s ease;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .nav-link:hover {
