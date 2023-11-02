@@ -10,10 +10,10 @@ Desenvolvido para elaboração do projeto integrador da FSA (Fundação Santo An
 ![Web 1](https://github.com/carloscopcescki/Projeto-Acex-FSA-Site/blob/main/assets/principal.png)
 
 ## Layout Mobile
-![Mobile 1](https://github.com/carloscopcescki/Projeto-Acex-FSA-Site/blob/main/assets/mobile-.jpg)
+![Mobile 1](https://github.com/carloscopcescki/Projeto-Acex-FSA-Site/blob/main/assets/mobile.jpg)
 
 ## Layout Menu Responsivo
-![Mobile 2](https://github.com/carloscopcescki/Projeto-Acex-FSA-Site/blob/main/assets/mobilemenu-.jpg)
+![Mobile 2](https://github.com/carloscopcescki/Projeto-Acex-FSA-Site/blob/main/assets/mobilemenu.jpg)
 
 ## Ferramentas Utilizadas
 
