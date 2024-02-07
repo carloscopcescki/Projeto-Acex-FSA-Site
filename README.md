@@ -24,7 +24,7 @@ Desenvolvido para elaboração do projeto integrador da FSA (Fundação Santo An
 ## Implantação em produção
 - Netlify
 
-# Desenvolvedores (Autores)
+## Desenvolvedores (Autores)
 
 - Carlos Daniel Copcescki Alcarria
 - Kaique Ayala
