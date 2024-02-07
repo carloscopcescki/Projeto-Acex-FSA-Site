@@ -27,6 +27,9 @@ Desenvolvido para elaboração do projeto integrador da FSA (Fundação Santo An
 # Desenvolvedores (Autores)
 
 Carlos Daniel Copcescki Alcarria
+
 Kaique Ayala
+
 Ludimilla Novaes
+
 Mayra Sacomani de Freitas
