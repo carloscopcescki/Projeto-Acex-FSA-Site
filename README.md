@@ -1,7 +1,6 @@
 # Projeto Integrador - ODS 15
 
 # Sobre o projeto
-
 https://projetoacexods15.netlify.app/
 
 Desenvolvido para elaboração do projeto integrador da FSA (Fundação Santo André), como forma de divulgação do tema "Contaminação do solo e gestão das empresas".
@@ -16,7 +15,6 @@ Desenvolvido para elaboração do projeto integrador da FSA (Fundação Santo An
 ![Mobile 2](https://github.com/carloscopcescki/Projeto-Acex-FSA-Site/blob/main/assets/mobilemenu.jpg)
 
 ## Ferramentas Utilizadas
-
 - HTML
 - CSS
 - Java Script
@@ -25,7 +23,6 @@ Desenvolvido para elaboração do projeto integrador da FSA (Fundação Santo An
 - Netlify
 
 ## Desenvolvedores (Autores)
-
 - Carlos Daniel Copcescki Alcarria
 - Kaique Ayala
 - Ludimilla Novaes
